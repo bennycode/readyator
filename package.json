@@ -41,7 +41,7 @@
     "dist",
     "!dist/**/*.test.*"
   ],
-  "homepage": "https://documentup.com/bennycode/readyator",
+  "homepage": "https://www.npmjs.com/package/readyator",
   "keywords": [
     "cli",
     "commands",
