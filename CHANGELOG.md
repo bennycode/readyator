@@ -1,3 +1,9 @@
+### 1.2.0 (2022-03-22)
+
+##### New Features
+
+- Expose Node.js API ([09258a60](https://github.com/bennycode/readyator/commit/09258a6011e1ffef0fce7e365a03fe16ec7e13d9))
+
 ### 1.1.0 (2022-03-22)
 
 ##### New Features
