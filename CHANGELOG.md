@@ -1,3 +1,9 @@
+### 1.1.0 (2022-03-22)
+
+##### New Features
+
+- Forward output from command ([bdabc92f](https://github.com/bennycode/readyator/commit/bdabc92f2df0cbc26097860a2b31d312e8e7419c))
+
 ## 1.0.0 (2022-03-22)
 
 ##### New Features
