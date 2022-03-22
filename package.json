@@ -1,9 +1,15 @@
 {
-  "bugs": {
-    "url": "https://github.com/bennycode/ts-node-starter/issues"
+  "bin": {
+    "readyator": "dist/start.js"
   },
-  "dependencies": {},
-  "description": "",
+  "bugs": {
+    "url": "https://github.com/bennycode/readyator/issues"
+  },
+  "dependencies": {
+    "axios": "0.26.1",
+    "axios-retry": "3.2.4"
+  },
+  "description": "Waits for localhost ports to be ready before running a supplied command.",
   "devDependencies": {
     "@types/jest": "27.4.1",
     "@types/node": "17.0.22",
@@ -35,15 +41,27 @@
     "dist",
     "!dist/**/*.test.*"
   ],
-  "homepage": "https://documentup.com/bennycode/ts-node-starter",
-  "keywords": [],
-  "license": "UNLICENSED",
+  "homepage": "https://documentup.com/bennycode/readyator",
+  "keywords": [
+    "cli",
+    "commands",
+    "concurrently",
+    "executing",
+    "ports",
+    "ready",
+    "readyator",
+    "server",
+    "start",
+    "util",
+    "wait"
+  ],
+  "license": "MIT",
   "main": "dist/index.js",
-  "name": "ts-node-starter",
-  "private": true,
+  "name": "readyator",
+  "private": false,
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bennycode/ts-node-starter.git"
+    "url": "git+https://github.com/bennycode/readyator.git"
   },
   "scripts": {
     "build": "tsc",
@@ -51,6 +69,7 @@
     "clean": "rimraf .nyc_output coverage dist",
     "dev": "ts-node ./src/start.ts",
     "dist": "yarn clean && yarn build",
+    "exit": "echo 'Bye, bye'",
     "fix": "yarn fix:other && yarn fix:code",
     "fix:code": "yarn lint:code --fix --quiet",
     "fix:other": "yarn prettier --write",

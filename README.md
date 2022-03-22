@@ -1,19 +1,19 @@
-# ts-node-starter
+# Readyator
 
-TEXT
+Waits for localhost ports to be ready before running a supplied command.
 
-## ❯ Features
+## Usage
 
-- TEXT
-
-## ❯ Installation
+### CLI
 
 ```bash
-TEXT
+readyator [ports] [command]
 ```
 
-## ❯ Usage
+### Example
 
-```typescript
-// TEXT
+```bash
+readyator 8080,8081 "npm run start"
 ```
+
+**Notes:** Ports must be separated by comma if you want to wait for multiple ports to be ready (returning a successful HTTP status code). Your command must be surrounded by quotes so that it can be properly parsed.
