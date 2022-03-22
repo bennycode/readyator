@@ -1,3 +1,9 @@
+### 1.3.0 (2022-03-22)
+
+##### New Features
+
+- Support callback functions ([76fcb345](https://github.com/bennycode/readyator/commit/76fcb34537c11bf399f2bc92a2a61c00edeaa588))
+
 ### 1.2.0 (2022-03-22)
 
 ##### New Features
