@@ -1,6 +1,6 @@
 import axios, {AxiosError} from 'axios';
 import axiosRetry from 'axios-retry';
-import {exec, ExecException} from 'child_process';
+import {exec} from 'child_process';
 
 axiosRetry(axios, {
   retries: Number.MAX_SAFE_INTEGER,
@@ -24,14 +24,9 @@ export function runWhenReady(input: string, command: string, interval: string = 
 
   return Promise.all(urlChecks).then(() => {
     console.log(`All urls/ports available. Running "${command}"...`);
-    exec(command, (error: ExecException | null, stdout: string, stderr: string) => {
-      if (error) {
-        throw error;
-      } else if (stdout) {
-        process.stdout.write(stdout);
-      } else {
-        process.stderr.write(stderr);
-      }
+    const child = exec(command);
+    child.stdout?.on('data', data => {
+      process.stdout.write(data);
     });
   });
 }
