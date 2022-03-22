@@ -10,7 +10,7 @@ axiosRetry(axios, {
 
 function runWhenReady(
   input: NumberOrString | NumberOrString[],
-  command: string,
+  command: string | Function,
   interval: string = '1000'
 ): Promise<void> {
   const intervalInMillis = parseInt(interval, 10);
@@ -27,11 +27,17 @@ function runWhenReady(
   );
 
   return Promise.all(urlChecks).then(() => {
-    console.log(`All urls/ports available. Running "${command}"...`);
-    const child = exec(command);
-    child.stdout?.on('data', data => {
-      process.stdout.write(data);
-    });
+    console.log(`All urls/ports available.`);
+    if (typeof command === 'function') {
+      console.log(`Running callback function "${command.name}"...`);
+      command();
+    } else {
+      console.log(`Running "${command}"...`);
+      const child = exec(command);
+      child.stdout?.on('data', data => {
+        process.stdout.write(data);
+      });
+    }
   });
 }
 

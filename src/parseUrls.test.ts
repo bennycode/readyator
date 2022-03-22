@@ -31,7 +31,12 @@ describe('parseUrls', () => {
     });
   });
 
-  describe('mixed', () => {
+  describe('special cases', () => {
+    it('does not return a URL when the input array is empty', () => {
+      const urls = parseUrls([]);
+      expect(urls.length).toBe(0);
+    });
+
     it('parses URLs from stringified and numeric ports mixed with URLs', () => {
       const urls = parseUrls(['80', 7272, 'https://www.google.com/']);
       expect(urls.length).toBe(3);
