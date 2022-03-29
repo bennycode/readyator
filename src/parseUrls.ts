@@ -1,3 +1,4 @@
+import {URL} from 'url';
 import {NumberOrString} from './NumberOrString';
 
 /**
@@ -8,5 +9,7 @@ export function parseUrls(input: NumberOrString | NumberOrString[]): string[] {
   if (inputString.length === 0) {
     return [];
   }
-  return inputString.split(',').map(port => (isNaN(port as unknown as number) ? port : `http://localhost:${port}/`));
+  return inputString
+    .split(',')
+    .map(port => (isNaN(port as unknown as number) ? new URL(port).toString() : `http://localhost:${port}/`));
 }
