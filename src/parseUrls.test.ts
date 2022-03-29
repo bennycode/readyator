@@ -66,7 +66,7 @@ describe('parseUrls', () => {
       const urlWithoutSchema = 'google.com';
       expect(() => {
         parseUrls(urlWithoutSchema);
-      }).toThrow();
+      }).toThrowError('Invalid URL');
     });
   });
 });
