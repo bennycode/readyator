@@ -1,3 +1,9 @@
+### 1.4.0 (2022-03-29)
+
+##### New Features
+
+- Add URL validation ([#1](https://github.com/bennycode/readyator/pull/1)) ([b162f056](https://github.com/bennycode/readyator/commit/b162f056f6620563f8c13d7be509b784a9c54ba0))
+
 #### 1.3.1 (2022-03-29)
 
 ### 1.3.0 (2022-03-22)
