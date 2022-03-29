@@ -61,5 +61,12 @@ describe('parseUrls', () => {
       expect(urls[1]).toBe('https://bennycode.com/');
       expect(urls[2]).toBe('https://typescript.tv/');
     });
+
+    it('detects invalid URLs', () => {
+      const urlWithoutSchema = 'google.com';
+      expect(() => {
+        parseUrls(urlWithoutSchema);
+      }).toThrow();
+    });
   });
 });

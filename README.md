@@ -85,3 +85,11 @@ const callback = () => {
 
 runWhenReady([8080, 8081], callback);
 ```
+
+## Development
+
+Here is how you can easily test the `readyator` from your development environment when checking out the code:
+
+```bash
+npm start https://www.google.com/ "npm run exit"
+```
