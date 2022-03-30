@@ -1,3 +1,9 @@
+### 1.6.0 (2022-03-30)
+
+##### New Features
+
+- Export default API ([08683765](https://github.com/bennycode/readyator/commit/08683765de339a531921466cc4fb389ebbc1b2e0))
+
 ### 1.5.0 (2022-03-30)
 
 ##### New Features
