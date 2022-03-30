@@ -1,5 +1,7 @@
 # Readyator
 
+![Language Details](https://img.shields.io/github/languages/top/bennycode/readyator) ![License](https://img.shields.io/npm/l/readyator.svg) ![Dependency Updates](https://img.shields.io/librariesio/release/npm/readyator.svg) ![Package Version](https://img.shields.io/npm/v/readyator.svg)
+
 Waits for specified `urls` or `ports` on localhost to be ready before running a supplied command.
 
 ## Installation
