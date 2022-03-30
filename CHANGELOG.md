@@ -1,3 +1,9 @@
+### 1.5.0 (2022-03-30)
+
+##### New Features
+
+- Return status code of child process ([936b3d36](https://github.com/bennycode/readyator/commit/936b3d3693b31f60bf61ec56387de2c968c4a1b7))
+
 ### 1.4.0 (2022-03-29)
 
 ##### New Features
