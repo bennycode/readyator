@@ -71,9 +71,9 @@ readyator https://www.google.com/ "npm run start" 5000
 You can use `readyator` also through its Node.js API:
 
 ```ts
-import {runWhenReady} from 'readyator';
+import readyator from 'readyator';
 
-await runWhenReady([8080, 8081], 'npm run start');
+await readyator([8080, 8081], 'npm run start');
 ```
 
 It also supports executing a callback function:
@@ -83,7 +83,7 @@ const callback = () => {
   console.log('System is online!');
 };
 
-runWhenReady([8080, 8081], callback);
+readyator([8080, 8081], callback);
 ```
 
 ## Development

@@ -49,3 +49,4 @@ function runWhenReady(
 }
 
 export {runWhenReady};
+export default runWhenReady;
