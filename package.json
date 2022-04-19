@@ -1,6 +1,7 @@
 {
   "bin": {
-    "readyator": "dist/start.js"
+    "readyator": "dist/readyator.js",
+    "readyator-docker": "dist/readyator-docker.js"
   },
   "bugs": {
     "url": "https://github.com/bennycode/readyator/issues"
@@ -67,7 +68,7 @@
     "build": "tsc",
     "changelog:commit": "git add CHANGELOG.md && git commit -m \"docs: updated CHANGELOG.md\"",
     "clean": "rimraf .nyc_output coverage dist",
-    "dev": "ts-node ./src/start.ts",
+    "dev": "ts-node src/readyator.ts",
     "dist": "yarn clean && yarn build",
     "exit": "echo 'Bye, bye'",
     "fix": "yarn fix:other && yarn fix:code",
@@ -83,7 +84,7 @@
     "release:major": "generate-changelog -M -x \"chore,test\" && yarn changelog:commit && npm version major",
     "release:minor": "generate-changelog -m -x \"chore,test\" && yarn changelog:commit && npm version minor",
     "release:patch": "generate-changelog -p -x \"chore,test\" && yarn changelog:commit && npm version patch",
-    "start": "ts-node ./src/start.ts",
+    "start": "ts-node src/readyator.ts",
     "test": "cross-env NODE_ENV=test jest ./src --passWithNoTests",
     "test:coverage": "yarn test --coverage",
     "test:types": "yarn lint:types"
