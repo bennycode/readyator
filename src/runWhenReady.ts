@@ -4,7 +4,6 @@ import {exec} from 'child_process';
 import {parseUrls} from './parseUrls';
 import {NumberOrString} from './NumberOrString';
 import {logMessage} from './logMessage';
-import {checkHealthStatus} from './checkHealthStatus';
 
 axiosRetry(axios, {
   retries: Number.MAX_SAFE_INTEGER,
@@ -13,8 +12,7 @@ axiosRetry(axios, {
 function runWhenReady(
   input: NumberOrString | NumberOrString[],
   command: string | Function,
-  interval: string = '1000',
-  containerName?: string
+  interval: string = '1000'
 ): Promise<void> {
   const intervalInMillis = parseInt(interval, 10);
   const urls = parseUrls(input);
@@ -46,9 +44,6 @@ function runWhenReady(
       child.on('exit', (code: number | null) => {
         process.exit(code || 0);
       });
-    }
-    if (containerName) {
-      checkHealthStatus(containerName, intervalInMillis);
     }
   });
 }

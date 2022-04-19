@@ -2,8 +2,8 @@
 
 import {runWhenReady} from './runWhenReady';
 
-const [ports, command, interval, containerName] = process.argv.slice(2);
+const [ports, command, interval] = process.argv.slice(2);
 
-runWhenReady(ports, command, interval, containerName).catch(error => {
+runWhenReady(ports, command, interval).catch(error => {
   throw error;
 });
