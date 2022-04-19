@@ -1,3 +1,10 @@
+### 1.7.0 (2022-04-19)
+
+##### New Features
+
+- Add readyator-docker executable ([#10](https://github.com/bennycode/readyator/pull/10)) ([dfa9a293](https://github.com/bennycode/readyator/commit/dfa9a2939f01d416e8a666acf86f8b5f93a91d5c))
+- Add Docker health check ([#9](https://github.com/bennycode/readyator/pull/9)) ([2917478b](https://github.com/bennycode/readyator/commit/2917478be77242dd119176d0b44c8c00af73b84e))
+
 ### 1.6.0 (2022-03-30)
 
 ##### New Features
