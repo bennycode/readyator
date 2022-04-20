@@ -1,3 +1,9 @@
+#### 1.7.1 (2022-04-20)
+
+##### Documentation Changes
+
+- Wait for healthy Docker container ([91eddd1d](https://github.com/bennycode/readyator/commit/91eddd1d875208846538a8f8703b1c3f10f6ec1f))
+
 ### 1.7.0 (2022-04-19)
 
 ##### New Features
