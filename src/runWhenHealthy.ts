@@ -9,9 +9,10 @@ export enum HealthCheckStatus {
   UNHEALTHY = 'unhealthy',
 }
 
+let intervalHandle: NodeJS.Timer;
+
 export const runWhenHealthy = (instanceId: string, interval: string = '1000'): void => {
   const intervalInMillis = parseInt(interval, 10);
-  let intervalHandle: NodeJS.Timer;
 
   exec(
     `docker inspect -f {{.State.Health.Status}} ${instanceId}`,

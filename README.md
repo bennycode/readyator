@@ -68,6 +68,20 @@ Example:
 readyator https://www.google.com/ "npm run start" 5000
 ```
 
+### Wait for healthy Docker container
+
+Command:
+
+```bash
+readyator-docker [container_name] [interval_in_millis]
+```
+
+Example:
+
+```bash
+readyator-docker my_docker_container 1000
+```
+
 ### Node.js API
 
 You can use `readyator` also through its Node.js API:
