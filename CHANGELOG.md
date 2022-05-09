@@ -1,3 +1,9 @@
+### 1.8.0 (2022-05-09)
+
+##### New Features
+
+- Expose Docker API ([3a0cea18](https://github.com/bennycode/readyator/commit/3a0cea18c1b4776b0b481343be285751eba40e0d))
+
 #### 1.7.1 (2022-04-20)
 
 ##### Documentation Changes
