@@ -95,11 +95,21 @@ await readyator([8080, 8081], 'npm run start');
 It also supports executing a callback function:
 
 ```ts
+import readyator from 'readyator';
+
 const callback = () => {
   console.log('System is online!');
 };
 
 readyator([8080, 8081], callback);
+```
+
+Readyator's programmatic interface can also be used to listen for Docker containers to become healthy:
+
+```ts
+import {runWhenHealthy} from 'readyator';
+
+await runWhenHealthy('my_docker_container');
 ```
 
 ## Development

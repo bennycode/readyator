@@ -11,7 +11,12 @@ export enum HealthCheckStatus {
 
 let intervalHandle: NodeJS.Timer;
 
-export const runWhenHealthy = (instanceId: string, interval: string = '1000'): void => {
+export const runWhenHealthy = (
+  instanceId: string,
+  interval: string = '1000',
+  onSuccess: Function = () => process.exit(0),
+  onError: Function = () => process.exit(1)
+): void => {
   const intervalInMillis = parseInt(interval, 10);
 
   exec(
@@ -22,10 +27,10 @@ export const runWhenHealthy = (instanceId: string, interval: string = '1000'): v
       }
       if (error) {
         logMessage(`Failed to check health status for "${instanceId}": ${stderr}`, true, error);
-        process.exit(1);
+        onError();
       } else if (stdout.trim() === HealthCheckStatus.HEALTHY) {
         logMessage(`Instance "${instanceId}" is healthy.`);
-        process.exit(0);
+        onSuccess();
       } else {
         logMessage(`Waiting for instance "${instanceId}" to become healthy... Current state: ${stdout}`);
         intervalHandle = setInterval(() => runWhenHealthy(instanceId, interval), intervalInMillis);
