@@ -8,7 +8,7 @@
   },
   "dependencies": {
     "axios": "0.26.1",
-    "axios-retry": "3.2.4"
+    "axios-retry": "3.3.1"
   },
   "description": "Waits for localhost ports to be ready before running a supplied command.",
   "devDependencies": {
