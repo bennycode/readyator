@@ -7,7 +7,7 @@
     "url": "https://github.com/bennycode/readyator/issues"
   },
   "dependencies": {
-    "axios": "0.26.1",
+    "axios": "1.1.3",
     "axios-retry": "3.2.4"
   },
   "description": "Waits for localhost ports to be ready before running a supplied command.",
