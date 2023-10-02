@@ -40,6 +40,12 @@ Example:
 readyator 8080,8081 "npm run start"
 ```
 
+If you're not looking to perform any specific actions but simply want to determine when the service is available, use this command:
+
+```bash
+readyator 8080,8081 "exit 0"
+```
+
 ### Wait for URLs
 
 Command:
