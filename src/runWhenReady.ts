@@ -20,7 +20,7 @@ function runWhenReady(
     axios.get(url, {
       'axios-retry': {
         retryDelay: (retryCount: number, error: AxiosError) => {
-          logMessage(`Waiting for "${error.config.url}" to come online (#${retryCount}): ${error.message}`);
+          logMessage(`Waiting for "${error.config?.url}" to come online (#${retryCount}): ${error.message}`);
           return intervalInMillis;
         },
       },
