@@ -2,22 +2,22 @@
 
 ##### Documentation Changes
 
-*  updated CHANGELOG.md ([3844c899](https://github.com/bennycode/readyator/commit/3844c899e609d31bfaddc3cb31253e500a6505a6))
-*  updated CHANGELOG.md ([41dfb5bb](https://github.com/bennycode/readyator/commit/41dfb5bb4b3d8d43d6011556d0c93e0c457ce962))
-*  Show how to skip the command ([4fa6f3b8](https://github.com/bennycode/readyator/commit/4fa6f3b8500fe4677aa3a27d55fe80fceb7a48b9))
+- updated CHANGELOG.md ([3844c899](https://github.com/bennycode/readyator/commit/3844c899e609d31bfaddc3cb31253e500a6505a6))
+- updated CHANGELOG.md ([41dfb5bb](https://github.com/bennycode/readyator/commit/41dfb5bb4b3d8d43d6011556d0c93e0c457ce962))
+- Show how to skip the command ([4fa6f3b8](https://github.com/bennycode/readyator/commit/4fa6f3b8500fe4677aa3a27d55fe80fceb7a48b9))
 
 ##### New Features
 
-*  Use Node v20 ([#126](https://github.com/bennycode/readyator/pull/126)) ([ba9a9941](https://github.com/bennycode/readyator/commit/ba9a9941a583b6c76b6cd83b0a4d16b00e358ce9))
+- Use Node v20 ([#126](https://github.com/bennycode/readyator/pull/126)) ([ba9a9941](https://github.com/bennycode/readyator/commit/ba9a9941a583b6c76b6cd83b0a4d16b00e358ce9))
 
 ##### Bug Fixes
 
-*  Style changelog ([557d015b](https://github.com/bennycode/readyator/commit/557d015b2dd9adea26c7bf6a10b081569c6453cb))
-*  Git working directory not clean ([55a69608](https://github.com/bennycode/readyator/commit/55a696080006012240b309a2a4771f1e952a2902))
+- Style changelog ([557d015b](https://github.com/bennycode/readyator/commit/557d015b2dd9adea26c7bf6a10b081569c6453cb))
+- Git working directory not clean ([55a69608](https://github.com/bennycode/readyator/commit/55a696080006012240b309a2a4771f1e952a2902))
 
 ##### Refactors
 
-*  Use lefthook ([#129](https://github.com/bennycode/readyator/pull/129)) ([84275171](https://github.com/bennycode/readyator/commit/84275171bdd0fa539c3db800507b94a281c5d384))
+- Use lefthook ([#129](https://github.com/bennycode/readyator/pull/129)) ([84275171](https://github.com/bennycode/readyator/commit/84275171bdd0fa539c3db800507b94a281c5d384))
 
 ## 2.0.0 (2023-12-18)
 
