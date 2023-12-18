@@ -9,7 +9,7 @@ export enum HealthCheckStatus {
   UNHEALTHY = 'unhealthy',
 }
 
-let intervalHandle: NodeJS.Timer;
+let intervalHandle: NodeJS.Timeout;
 
 export const runWhenHealthy = (
   instanceId: string,
