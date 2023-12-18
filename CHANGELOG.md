@@ -1,3 +1,17 @@
+## 2.0.0 (2023-12-18)
+
+##### Documentation Changes
+
+*  Show how to skip the command ([4fa6f3b8](https://github.com/bennycode/readyator/commit/4fa6f3b8500fe4677aa3a27d55fe80fceb7a48b9))
+
+##### New Features
+
+*  Use Node v20 ([#126](https://github.com/bennycode/readyator/pull/126)) ([ba9a9941](https://github.com/bennycode/readyator/commit/ba9a9941a583b6c76b6cd83b0a4d16b00e358ce9))
+
+##### Refactors
+
+*  Use lefthook ([#129](https://github.com/bennycode/readyator/pull/129)) ([84275171](https://github.com/bennycode/readyator/commit/84275171bdd0fa539c3db800507b94a281c5d384))
+
 ### 1.8.0 (2022-05-09)
 
 ##### New Features
