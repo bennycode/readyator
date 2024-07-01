@@ -1271,10 +1271,10 @@ asynckit@^0.4.0:
   resolved "https://registry.npmjs.org/asynckit/-/asynckit-0.4.0.tgz#c79ed97f7f34cb8f2ba1bc9790bcc366474b4b79"
   integrity sha1-x57Zf380y48robyXkLzDZkdLS3k=
 
-axios-retry@4.3.0:
-  version "4.3.0"
-  resolved "https://registry.npmjs.org/axios-retry/-/axios-retry-4.3.0.tgz#43d10bb3675286d116e0a37350ff73aec36ebb80"
-  integrity sha512-vUAQ3bi02Q++b8aAn3fuM03qRKFLZ6BPcqSVsOpgWeww2jrYFpu9SKb9VuctvxrJuRCWM/voDuuRAD7v3A1G5g==
+axios-retry@4.4.1:
+  version "4.4.1"
+  resolved "https://registry.npmjs.org/axios-retry/-/axios-retry-4.4.1.tgz#e5d0c851e635fd4de866aec2b9b422f05d661257"
+  integrity sha512-JGzNoglDHtHWIEvvAampB0P7jxQ/sT4COmW0FgSQkVg6o4KqNjNMBI6uFVOq517hkw/OAYYAG08ADtBlV8lvmQ==
   dependencies:
     is-retry-allowed "^2.2.0"
 
