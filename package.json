@@ -12,7 +12,7 @@
   },
   "description": "Waits for localhost ports to be ready before running a supplied command.",
   "devDependencies": {
-    "@types/jest": "29.5.12",
+    "@types/jest": "29.5.13",
     "@types/node": "22.7.4",
     "@typescript-eslint/eslint-plugin": "7.0.0",
     "@typescript-eslint/parser": "6.21.0",
