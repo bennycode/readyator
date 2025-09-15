@@ -4,6 +4,29 @@
 
 Waits for specified `urls` or `ports` on localhost to be ready before running a supplied command.
 
+## Features
+
+- **More reliable than sleep:** Actually checks if services are responding
+- **Faster execution:** Continues as soon as ready (no fixed wait)
+- **Better error handling:** Fails fast if services don't start
+- **More professional:** Industry-standard approach for service dependencies
+
+## Pratical Example
+
+Before:
+
+```yml
+./dev/up
+sleep 5  # Hope services are ready
+npm test
+```
+
+After:
+
+```yml
+./dev/up readyator 5555,5556,3000,5558 "npm test"
+```
+
 ## Installation
 
 ### npm
