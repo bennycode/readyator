@@ -28,7 +28,7 @@
     "lefthook": "^2.0.2",
     "prettier": "3.7.4",
     "rimraf": "6.1.2",
-    "ts-jest": "29.4.5",
+    "ts-jest": "29.4.6",
     "ts-node": "10.9.2",
     "typescript": "5.9.3"
   },
