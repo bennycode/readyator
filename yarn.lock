@@ -2707,71 +2707,71 @@ kleur@^3.0.3:
   resolved "https://registry.npmjs.org/kleur/-/kleur-3.0.3.tgz#a79c9ecc86ee1ce3fa6206d1216c501f147fc07e"
   integrity sha512-eTIzlVOSUR+JxdDFepEYcBMtZ9Qqdef+rnzWdRZuMbOywu5tO2w2N7rqjoANZ5k9vywhL6Br1VRjUIgTQx4E8w==
 
-lefthook-darwin-arm64@2.1.10:
-  version "2.1.10"
-  resolved "https://registry.npmjs.org/lefthook-darwin-arm64/-/lefthook-darwin-arm64-2.1.10.tgz#d784fca4507676f35026a08c6abe43d4c18b4cad"
-  integrity sha512-nw+X8wRNDoUUV6WSteyKBbcLySq+fsmZt5WV/s50ZJpysmsDKJOUMln6SllNfP+60dzUahAO7REco/2633BsLg==
+lefthook-darwin-arm64@2.1.12:
+  version "2.1.12"
+  resolved "https://registry.npmjs.org/lefthook-darwin-arm64/-/lefthook-darwin-arm64-2.1.12.tgz#b28f959d0315f6f3c5441297a6a4da436e5da86e"
+  integrity sha512-GSUjqaCuxAYlPOovbjXEWE3HAIa/xOQkTTmZ937zieQldjPLTaC7+s5FHoxKywn+D9riBlofkDqG7Z4f5zzmPA==
 
-lefthook-darwin-x64@2.1.10:
-  version "2.1.10"
-  resolved "https://registry.npmjs.org/lefthook-darwin-x64/-/lefthook-darwin-x64-2.1.10.tgz#3558963696a4abe4caa022f46a80cca3383d6385"
-  integrity sha512-KQ/bHmvpkFdHMn4pZnUdTf+GuSC+aBBgBTxZT4GW+6cSf+qbErKZBhK7cH6BmILsvx43+VzEArvHYY7YOfRFOQ==
+lefthook-darwin-x64@2.1.12:
+  version "2.1.12"
+  resolved "https://registry.npmjs.org/lefthook-darwin-x64/-/lefthook-darwin-x64-2.1.12.tgz#8676159a37ed49b24497942215e79acbfe24422b"
+  integrity sha512-qAUHSSw/7Afi5wxkoLkxORxSicCeTBXyVLnRgD6YZra6udviozpK3Aok9Z6FIWeKc5FBijRMSNDxGPTREhsjcQ==
 
-lefthook-freebsd-arm64@2.1.10:
-  version "2.1.10"
-  resolved "https://registry.npmjs.org/lefthook-freebsd-arm64/-/lefthook-freebsd-arm64-2.1.10.tgz#11211731fda6645710ee6498cc4c35a6c2c8897d"
-  integrity sha512-8su6DwydP7+pv7kG0zCtjphqsw4ouOnfexRUErapy5GTxYBoUOhYz3RSHTSWNRsK6W4jva7FPUh2Lp5/PSn30w==
+lefthook-freebsd-arm64@2.1.12:
+  version "2.1.12"
+  resolved "https://registry.npmjs.org/lefthook-freebsd-arm64/-/lefthook-freebsd-arm64-2.1.12.tgz#d34f0ae231cbfa9f5202348d7a4cd02e2dc495f6"
+  integrity sha512-FHZRfKliFNbyz54zsoGdVe9muq67cNjBTZ6jrPPUjI7xUuyCwSpzA+1OpiwJT00L9pP5ZGONBqnGZKnrpC+7Uw==
 
-lefthook-freebsd-x64@2.1.10:
-  version "2.1.10"
-  resolved "https://registry.npmjs.org/lefthook-freebsd-x64/-/lefthook-freebsd-x64-2.1.10.tgz#b473d0b48eabc7196b0bc71b3edf2d3ed9172987"
-  integrity sha512-GeAJEFxko3Lk+AsnS3NleAFrpyMLFUKOlgJvPKuU0xHwVEI/z+ZoCcmuO0BX+4CS0NLbZhC/YQAvBASqDvvVdQ==
+lefthook-freebsd-x64@2.1.12:
+  version "2.1.12"
+  resolved "https://registry.npmjs.org/lefthook-freebsd-x64/-/lefthook-freebsd-x64-2.1.12.tgz#837c34702810643566cd40fdf182bd109e14f12a"
+  integrity sha512-HYQZPGy2DDEx7dbuotusJpujY5q9igOLgx36qeeQcNQuvvdGHPj2ZGSIsGKhoJ0dw5Qa4knKJoPAHEZQWdV/og==
 
-lefthook-linux-arm64@2.1.10:
-  version "2.1.10"
-  resolved "https://registry.npmjs.org/lefthook-linux-arm64/-/lefthook-linux-arm64-2.1.10.tgz#8aa8b232d7844a808779d4cc6507f7d117a1bbd2"
-  integrity sha512-1sHTCmpTWjVMs+yKPBLRNT1kuuIr1yjietlk7rCB6wFPVOS6Ph3o2zPFH2AvW1UymHlqwyHXzBr9EtDpQ7j1mQ==
+lefthook-linux-arm64@2.1.12:
+  version "2.1.12"
+  resolved "https://registry.npmjs.org/lefthook-linux-arm64/-/lefthook-linux-arm64-2.1.12.tgz#d3a930c0b17ad5f75410d82ec9ed58329b90799a"
+  integrity sha512-ipjOri2PB/sk4noPrHQuM5fcpNBjmlKo4qMtXyLnxeOxGYHWZzf0Xi0OtrXHQ//tOprcv40ADvhUuSdcGqigLw==
 
-lefthook-linux-x64@2.1.10:
-  version "2.1.10"
-  resolved "https://registry.npmjs.org/lefthook-linux-x64/-/lefthook-linux-x64-2.1.10.tgz#310ba403bae3b392cacffd1c755fdf20bba43e6b"
-  integrity sha512-z/VlRB3bh6mBvW3r1rwnJ5vP8z+Krx5gJzkZ4veDXh+6FlRTx8wtd3g3fllOv/yZMxkgmL3fQoFXv05Esa7vBQ==
+lefthook-linux-x64@2.1.12:
+  version "2.1.12"
+  resolved "https://registry.npmjs.org/lefthook-linux-x64/-/lefthook-linux-x64-2.1.12.tgz#ffae7d78727f009940080c0d4fb99c783f5eaae8"
+  integrity sha512-DmU6xfvqVoFdW+STyc70YI4Ry8vkHGKHx+IJ1Js/Gacq5dv+fiwNzwle3bi28EkL6P8xY67B/CfQfRj4SRU4tg==
 
-lefthook-openbsd-arm64@2.1.10:
-  version "2.1.10"
-  resolved "https://registry.npmjs.org/lefthook-openbsd-arm64/-/lefthook-openbsd-arm64-2.1.10.tgz#a67b49fa02badc153e5532f48cf7fb90cfe0d7ff"
-  integrity sha512-430zL8sSIKw5P0YXGG6PB+eAhHa06n0PXuaERaAQE4Ss3odfqwnl5Mq9hQmkEnOS1EGiQEKkd0UHv/i4PtMNIQ==
+lefthook-openbsd-arm64@2.1.12:
+  version "2.1.12"
+  resolved "https://registry.npmjs.org/lefthook-openbsd-arm64/-/lefthook-openbsd-arm64-2.1.12.tgz#858b8445727dd825470fa00febb585c4ef9c33e5"
+  integrity sha512-vb0J7bElLvoaCWQmna3HntsvoNqMsGAhfjjC99ss1OdCteufZKM3RxCVoMBEbD50Itv2c1Ua2AFVToltVFTy1Q==
 
-lefthook-openbsd-x64@2.1.10:
-  version "2.1.10"
-  resolved "https://registry.npmjs.org/lefthook-openbsd-x64/-/lefthook-openbsd-x64-2.1.10.tgz#a29328d22bfadac25755b29206f815e34d912cee"
-  integrity sha512-bgkO8PphGZVDhQgCJ524aYYPI5491pVmCiLPGjBIo1AvOSlIyw4N1Y+1C3QfqwEmechzw+Aq16SNc8pqv6UuXg==
+lefthook-openbsd-x64@2.1.12:
+  version "2.1.12"
+  resolved "https://registry.npmjs.org/lefthook-openbsd-x64/-/lefthook-openbsd-x64-2.1.12.tgz#771ee890e6e6cd122fdd24d88a754623505eed0a"
+  integrity sha512-QOmhDWqPPK4+99scanfEmbJjUR+JYC93qhr/0bp5Dj3LaR3kVFNWc6zOQUsOTPy/LC6PG759Lej/mr/BtjUL2Q==
 
-lefthook-windows-arm64@2.1.10:
-  version "2.1.10"
-  resolved "https://registry.npmjs.org/lefthook-windows-arm64/-/lefthook-windows-arm64-2.1.10.tgz#1e810f36467bc75604fafe68063480bc2a4db11c"
-  integrity sha512-5Q6etF0Fla2DDA4ilDySrdNgiR5+W7cJZwnZ69Je3kvWCaWm4wnkuc8FEdjp3kiL2x3ZXipdI00f5vpO8aWmog==
+lefthook-windows-arm64@2.1.12:
+  version "2.1.12"
+  resolved "https://registry.npmjs.org/lefthook-windows-arm64/-/lefthook-windows-arm64-2.1.12.tgz#85943b4e430bafe081acc8185555378a9183f22a"
+  integrity sha512-eErEyr9AHkRFj6TxpCQeKGd0s6IrtL/VEIZ/ssg8dNfG+ycR4jAW/IAlrJSw6/ZQXb3WtWLaQ6QA5c+TLh7vmg==
 
-lefthook-windows-x64@2.1.10:
-  version "2.1.10"
-  resolved "https://registry.npmjs.org/lefthook-windows-x64/-/lefthook-windows-x64-2.1.10.tgz#f25c49c3e8b1872aeb91ec8c8601fe48e51c78d5"
-  integrity sha512-c/XH8YZtylG4XaxzqFfXluvq2LXq2W/p54Bnzn3+Z7E5X2Fk3JlFJAibulMbIt2+w8T7UI/r97ok5GqE4kGaeA==
+lefthook-windows-x64@2.1.12:
+  version "2.1.12"
+  resolved "https://registry.npmjs.org/lefthook-windows-x64/-/lefthook-windows-x64-2.1.12.tgz#b6b1d53735abcc4d3e7235e9b7175e5684c89ab0"
+  integrity sha512-0h+WmDVdDriTjloD/UbjPq/ZtqaaJlPAdGcVwMCEdAxfbF0FTgDbKX3igui9g2U/qG2y6QpVhtz1jeiRe7ctaw==
 
 lefthook@^2.0.2:
-  version "2.1.10"
-  resolved "https://registry.npmjs.org/lefthook/-/lefthook-2.1.10.tgz#e185e72329a4a17bf2ef53b7405de0ff7829bc33"
-  integrity sha512-K7mM4WoqMwqfXYK11EHy+lSH1uW8XHni3Yn/bSqyerPkUPygGdf3xn18JoV5HyA06xuQL3ofGAOjG01QX9oJ4w==
+  version "2.1.12"
+  resolved "https://registry.npmjs.org/lefthook/-/lefthook-2.1.12.tgz#d02a5a0ac9080535bf502e2fd31ef350fb05757f"
+  integrity sha512-2uOexfsrrRhCiTUWdGyDySxVHHhOFJ8MQejs27dM3hugrQB48/z1ZVlaNoxpZ1SnzQ1GaDIbO5rAvicwyiknYQ==
   optionalDependencies:
-    lefthook-darwin-arm64 "2.1.10"
-    lefthook-darwin-x64 "2.1.10"
-    lefthook-freebsd-arm64 "2.1.10"
-    lefthook-freebsd-x64 "2.1.10"
-    lefthook-linux-arm64 "2.1.10"
-    lefthook-linux-x64 "2.1.10"
-    lefthook-openbsd-arm64 "2.1.10"
-    lefthook-openbsd-x64 "2.1.10"
-    lefthook-windows-arm64 "2.1.10"
-    lefthook-windows-x64 "2.1.10"
+    lefthook-darwin-arm64 "2.1.12"
+    lefthook-darwin-x64 "2.1.12"
+    lefthook-freebsd-arm64 "2.1.12"
+    lefthook-freebsd-x64 "2.1.12"
+    lefthook-linux-arm64 "2.1.12"
+    lefthook-linux-x64 "2.1.12"
+    lefthook-openbsd-arm64 "2.1.12"
+    lefthook-openbsd-x64 "2.1.12"
+    lefthook-windows-arm64 "2.1.12"
+    lefthook-windows-x64 "2.1.12"
 
 leven@^3.1.0:
   version "3.1.0"
